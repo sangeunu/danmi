@@ -1,0 +1,13 @@
+*{margin:0; padding:0;}
+ul{list-style: none;}
+a{text-decoration: none; color:#000;}
+
+#header{width:1200px; margin:0 auto; height:76px;}
+.logo{float:left; padding:20px 0;}
+.nav{float:right;}
+.nav li{float:left;}
+.nav li a{display:block;
+        padding:27px 30px;
+        font-weight: bold;
+}
+.nav li a:hover {color:pink;}

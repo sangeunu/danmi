@@ -1,0 +1,208 @@
+ *{margin: 0; padding: 0;}
+    ul{list-style: none;}
+    a{text-decoration: none; color: black;}
+    body{font-family: '나눔스퀘어';
+         font-size: 100%;
+          line-height: 130%; 
+          color: #fff; 
+          background-color:#ffeeed;}
+
+/* 
+        #header{width:100%; height: 57px;
+            background-color:#fff;
+            padding:20px 0; box-sizing: border-box;
+            text-align: center;}
+        
+        
+        #header2{width:100%; height:130px;
+            background-color:#fff;}
+        .nav{width:1200px; margin:0 auto;}
+        .nav li{float:left;}
+        .nav li a{display:block; color:#333;
+                padding:15px 58px;}
+        .nav li a:hover{color: rgb(255, 108, 152);}
+
+
+
+ */
+
+
+/*header*/
+#header{width:100%; height:120px;/*수정해야함*/
+    background-color: #fff;
+
+}
+.header_inner{width:1320px; margin:0 auto;
+        position:relative;
+}
+.nav{position:absolute; }
+.nav li{float:left; }
+.nav li a{display: block; padding:89px 94px 10px 94px;
+}
+.nav li a:hover{color:#eba4af;}
+.nav li:nth-child(3) a{padding:10px 94px 10px 94px;} /*높이수정필요*/
+
+.link{position:absolute; top:15px; right:0;}
+.link li{float:left; margin-right:10px;}
+.link li a{font-size:80%;}
+
+
+/*con1*/
+
+#con1 img{width:100%; display:block;}
+
+#con2{width:1320px; margin:0 auto; 
+    text-align: center;
+
+     height:1000px; /*높이수정하기*/
+}
+.product1 li{float:left; width:500px; margin-left:100px; margin-top:100px; background: #fff; height: 350px;} 
+    /*마진값 별도로 계산해서 넣기*/
+
+.imgbox{width:500px; height: 250px; overflow: hidden; }
+.product1 li:hover .img{transform: scale(1.2,1.2); transition: all 2s;}
+.product2 li:hover .img{transform: scale(1.2,1.2); transition: all 2s;}
+.product3 li:hover .img{transform: scale(1.2,1.2); transition: all 2s;}
+.product4 li:hover .img{transform: scale(1.2,1.2); transition: all 2s;}
+
+#con2 h1{padding-top:80px; color: #333;}
+
+/*con3*/
+#con3{width:100%; display: block; margin-top:100px;
+height:300px; background:url(images/banner.jpg) no-repeat center top fixed;}
+#con3 h1{color:#fff; font-size:50px; padding-top:120px; letter-spacing:50px;
+text-align:center;}
+
+
+/*con4*/
+#con4{width:1320px; margin:100px auto; text-align: center;
+
+    position:relative;
+
+
+    height:700px; /*높이수정하기*/
+}
+
+
+.program{
+    width:1372px; margin:100px auto;
+   }
+
+
+.program li{float:left; width:444px; height:311px; position:relative; /*기준*/
+overflow: hidden;}
+.program li:nth-child(2) {margin:0 20px;}
+
+/* .pr2{top:0px; left:50%; margin-left:-250px;
+    z-index: 99;} */
+
+/* .pr1{position:absolute; top:20px; left:0px;} 
+
+}
+.pr3{position: absolute; top:20px; right:0px;}
+ */
+
+.caption{position:absolute; top:0; left:0;
+   width:100%; height:100%;
+
+    background: rgba(255,255,255,0.2);
+    text-align: center;
+    color:rgba(255,255,255,0); 
+    padding-top:140px;
+    box-sizing: border-box;
+    transition:all 1s; overflow: hidden;
+}
+
+
+#con4 ul li img{display: block}
+ul li a:hover .caption
+{color:rgba(255,255,255,1);
+transform:scale(1.2,1.2);}
+
+#con4 h1{padding-top:80px; color: #333;}
+
+/*con5*/
+#con5{width:1050px; margin:0 auto; height:1600px; text-align: center;}
+#con5 h1{padding:50px 0; color:#333;}
+.like{position:relative; width:1050px; height:1326px;}
+    
+    /*부모*/ 
+/*너비,높이줘야함*/
+/*그외 like li 각각 이름주고 자식만들어서 위치시키기*/
+
+
+.posi1{position:absolute; top:0; left:0;}
+
+.posi2{position:absolute; top:350px; left:0;}
+
+.posi3{position:absolute; left:0; bottom:0;}
+
+.posi4{position:absolute; right:0; top:0;}
+
+.posi5{position:absolute; right:0; bottom:0;}
+
+
+
+/*con6*/
+#con6 img{width:100%; display: block;}
+
+
+
+
+
+/*con7*/
+#con7{width:1320px; margin:0 auto; text-align: center;
+    height: 800px; padding-top:100px;
+}
+#con7 h1{padding:50px 0;}
+#con7 ul li{float:left; width:400px; margin-right:60px;}
+#con7 ul li:last-child{margin-right:0;}
+
+
+
+#con7 h1{padding-top:80px; color: #333;}
+
+
+.bydanmi li a:hover img{transform: scale(1.2,1.2); transition: all 2s;}
+
+
+
+
+#footer{width:100%; height:400px; 
+            background:#eba4af;
+            color:#fff;}
+
+            .footer_inner{width:1200px; margin:0 auto;
+                padding-top:50px;
+               ;/*sns 기준*/
+    }
+    .footer_text ul{margin:30px 0;}
+    .footer_text ul li{float:left; }
+    .footer_text ul li a{color:#fff;
+    
+       
+       margin-right:30px;
+    
+    }
+    .footer_text ul li a:hover{color:#fff;}
+
+
+    .footer_text p{clear: both; color:rgba(255,255,255,0.7);
+            padding-top:30px;
+    }
+
+
+
+    .footer_text2{clear: both; }
+
+    .footer_text3 {clear: both;
+      padding:50px 0;}
+    .footer_text3 div{float:left;}
+    .footer_logo{margin-right: 50px;}
+
+    .footer_text3 p{padding-top:20px;}
+
+
+
+    /*con7*/
+    #con7{width:1320px; margin:0 auto;}
